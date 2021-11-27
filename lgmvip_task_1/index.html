@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hotel Booking</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Lobster&family=Play&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="val">
+        <div class="container-fluid" id="navi">
+            <a class="navbar-brand" id="logo" href="#">ZIPPY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link" id="items" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link"  id="items"href="#pck">Package</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" id="items" href="#booking">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" id="items" href="#footer" >Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+  
+    </nav>
+ 
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+  
+    <div class="title" style="z-index:1"><div id="tit"><h1>Don't Know where to go? No Worries</h1><br><h3>You have come to the one stop destination for Your Trip planning.</h3></div> 
+  </div>
+    <div class="carousel-item active" id="caro" >
+      <img src="./images/Road-Trip.jpg" style="height:100vh" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item ">
+     <img src="./images/vac-2.jpg" style="height:100vh"class="d-block w-100" alt="...">
+    </div> 
+    <div class="carousel-item ">
+      <img src="./images/vac-1.jpg"  style="height:100vh"class="d-block w-100"alt="">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    
+<div class="packages" id="pck">
+    <div class="heading" id="h-1"> <h1>PACKAGES </h1> </div>
+    <div class="row" id="cont"> 
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-12" id="pack"> 
+            <img  class="trip_img" style="height:150px"src="./images/manali.jpg" alt="manali"> 
+            <h1 class="city">MANALI </h1> 
+            <h3 class="details"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet nisi.</h3>
+            <h2 class="pricing"> $99.99 </h2> 
+            <a class="btn btn-primary" href="#booking"> BOOK NOW </a>        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-12" id="pack"> 
+            <img  class="trip_img" src="./images/goa.jpg" alt="goa"> 
+            <h1 class="city">GOA </h1> 
+            <h3 class="details"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet nisi.</h3>
+            <h2 class="pricing"> $99.99 </h2> 
+            <a class="btn btn-primary" href="#booking"> BOOK NOW </a>        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-12" id="pack"> 
+            <img  class="trip_img" src="./images/mumbai.jpg" alt="mumbai"> 
+            <h1 class="city">MUMBAI </h1> 
+            <h3 class="details"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet nisi.</h3>
+            <h2 class="pricing"> $99.99 </h2> 
+            <a class="btn btn-primary" href="#booking"> BOOK NOW </a>        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-12" id="pack"> 
+            <img  class="trip_img" src="./images/kedaranth.jpeg" alt="kedarnath"> 
+            <h1 class="city">KEDARNATH </h1> 
+            <h3 class="details"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet nisi.</h3>
+            <h2 class="pricing"> $99.99 </h2> 
+            <a class="btn btn-primary" href="#booking"> BOOK NOW </a>        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-12" id="pack"> 
+            <img  class="trip_img" src="./images/sikkim.jpg" alt="sikkim"> 
+            <h1 class="city">SIKKIM</h1> </h1> 
+            <h3 class="details"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet nisi.</h3>
+            <h2 class="pricing"> $99.99 </h2> 
+            <a class="btn btn-primary" href="#booking"> BOOK NOW </a>        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-12" id="pack"> 
+            <img  class="trip_img" src="./images/delhi.jpg" alt="delhi"> 
+            <h1 class="city">DELHI </h1> 
+            <h3 class="details"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet nisi.</h3>
+            <h2 class="pricing"> $99.99 </h2> 
+            <a class="btn btn-primary" href="#booking"> BOOK NOW </a>        </div>
+        
+     </div>
+</div>
+
+    <div class="services"> 
+        <div class="heading" id="h-2"><h1> SERVICES </h1> </div>
+        <div class="row"> 
+            <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h1 id="service"> Hotels </h1> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel.</p>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+            <i class="fas fa-plane-departure fa-3x"></i>
+                <h1  id="service"> Holidays </h1>  
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel.</p>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+            <i class="fas fa-route fa-3x"></i>
+                <h1  id="service"> Travel </h1> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel.</p>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+            <i class="fas fa-money-check-alt fa-3x"></i>
+                <h1  id="service"> Rentals </h1> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel.</p>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+            <i class="fas fa-utensils fa-3x"></i>
+                <h1  id="service"> Food </h1> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel.</p>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+            <i class="fas fa-blog fa-3x"></i>
+                <h1  id="service"> Blog </h1> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel.</p>
+            </div>
+        </div>
+    </div>
+
+            <div class="blog">
+                <div class="heading" id="h-3"> <h1> BLOG POSTS </h1> </div>
+                <div  id="value" >
+                    <div  id="post">
+                        <img src="./images/pep-1.jpg" class="blog_img" alt="person">
+                        <h2> Abhinav sharma </h2> 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel................</p>
+                        <button type="button" class="btn btn-primary">Read More</button> 
+                    </div>
+                    <div  id="post" >
+                        <img src="./images/pep-2.jpg" class="blog_img" alt="person">
+                        <h2> Anita Kapoor </h2> 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel................</p>
+                        <button type="button" class="btn btn-primary">Read More</button> 
+                    </div>
+                    <div   id="post">
+                        <img src="./images/pep-3.jpg" class="blog_img" alt="person">
+                        <h2> Sambhav Mishra  </h2> 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut praesentium non cum nisi eos. Blanditiis et cupiditate officia ipsa id provident nesciunt animi adipisci maxime a quisquam, qui, autem vel................</p>
+                        <button type="button" class="btn btn-primary">Read More</button> 
+                    </div>
+
+                </div> 
+            </div>
+            <div class="book" id="booking">
+                <div class="heading hedd" id="h-4"> <h1> BOOK NOW </h1> </div> 
+                    <div class="bookNow">
+                        <div class="form">
+                            <div class="name">
+                                <label for="name">Name: </label>
+                                <input type="text" id="name" placeholder="Your Name" />
+                            </div>
+                            <div class="locppl">
+                                <div class="location" style="grid-area: location">
+                                    <label for="location">Location: </label>
+                                    <input type="text" id="location" placeholder="Location" />
+                                </div>
+                                <div class="people" style="grid-area: people">
+                                    <label for="people">No.of People: </label>
+                                    <input type="number" id="people" value="2" />
+                                </div>
+                            </div>
+                            <div class="stays">
+                                <div class="sdate" style="grid-area: sdate">
+                                    <label for="sdate">Trip date: </label>
+                                    <input type="date" id="sdate" />
+                                </div>
+                                <div class="nofdays" style="grid-area: nofdays">
+                                    <label for="days">Staying till: </label>
+                                    <input type="date" id="days" />
+                                </div>
+                            </div>
+                            <button type="submit" id="butt" class=" submit btn btn-primary">BOOK NOW </button>
+                        </div>
+                        <div class="circle">
+                            <div class="image">
+                                <img src="./images/trip-1.png" alt="trip" />
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        <div class="newsletter"> 
+            <div class="heading" id="h-5">
+                <h1> JOIN US!! </h1> 
+            </div> 
+            
+            <div class="catalogue">
+                <i class="fab fa-mailchimp fa-5x"></i>
+                <h2 style="font-weight: bold;">Subscribe to our Newsletter for exiting travelling content!</h2>
+            </div> 
+            <div class="input">
+                <input type="email" placeholder="Your Email">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+        </div>
+        <footer id="footer">
+        <div class="footer" >
+          <div class="sec aboutus">
+            <h2 style="font-family: 'Acme', sans-serif;">About Us</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consectetur, illo vero. Eum hic, vitae corporis atque explicabo
+              quae earum quam saepe, cupiditate impedit, maxime molestias. Eos
+              deserunt eum illum tempora.
+            </p>
+            <ul class="icons">
+              <li>
+                <a href="#footer"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#footer"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#footer"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#footer"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#footer"><i class="fab fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="sec quickLinks">
+            <h2 style="font-family: 'Acme', sans-serif;">Quick Links</h2>
+            <ul>
+              <li><a href="#footer">About</a></li>
+              <li><a href="#footer">FAQ</a></li>
+              <li><a href="#footer">Privacy</a></li>
+              <li><a href="#footer">Help</a></li>
+              <li><a href="#footer">Terms & condition</a></li>
+            </ul>
+          </div>
+          <div class="sec contact">
+            <h2 style="font-family: 'Acme', sans-serif;">Contact Info</h2>
+            <ul class="info">
+              <li>
+                <span><i class="fas fa-map-marker-alt"></i></i></span>
+                <span
+                  >Pradhan Nagar <br />
+                  Siliguri , 734001. <br />India</span
+                >
+              </li>
+              <li>
+                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <p><a href="tel:1234567890">+91 2345212234</a></p>
+              </li>
+
+              <li>
+                <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <p>
+                  <a href="mailto:k.chaurasia0206@gmail.com">k.chaurasia0206@gmail.com</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+           <!--    MAP    -->
+       <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.2833250380286!2d88.44301361499477!3d26.767237183190463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4417af1ac88dd%3A0xcb2426e4d59619ca!2sSiliguri!5e0!3m2!1sen!2sus!4v1637909519794!5m2!1sen!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      </footer>
+
+     
+    </div>
+    </body>
+</html>
