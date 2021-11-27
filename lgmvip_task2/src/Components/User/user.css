@@ -1,0 +1,31 @@
+.user {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+  }
+  .user:hover{
+    
+    box-shadow: 5px 5px 5px rgb(66, 62, 62);
+  }
+  .img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0.5rem;
+  }
+  .img img {
+    border-radius: 50%;
+  }
+  .details {
+    text-align: center;
+  }
+  h4 {
+    
+    margin-bottom: 10px;
+  }
+  .email{
+    border-bottom: 2px solid rgb(50, 231, 50);
+  }
